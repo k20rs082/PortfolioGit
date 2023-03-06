@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680F0F25298E2ED80030C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F24298E2ED80030C1F1 /* AppDelegate.swift */; };
+		680F0F27298E2ED80030C1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F26298E2ED80030C1F1 /* SceneDelegate.swift */; };
+		680F0F29298E2ED80030C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F28298E2ED80030C1F1 /* ViewController.swift */; };
+		680F0F2C298E2ED80030C1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680F0F2A298E2ED80030C1F1 /* Main.storyboard */; };
+		680F0F2E298E2ED90030C1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680F0F2D298E2ED90030C1F1 /* Assets.xcassets */; };
+		680F0F31298E2ED90030C1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680F0F2F298E2ED90030C1F1 /* LaunchScreen.storyboard */; };
+		680F0F3C298E2ED90030C1F1 /* DragGestureGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F3B298E2ED90030C1F1 /* DragGestureGameTests.swift */; };
+		680F0F46298E2ED90030C1F1 /* DragGestureGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F45298E2ED90030C1F1 /* DragGestureGameUITests.swift */; };
+		680F0F48298E2ED90030C1F1 /* DragGestureGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F0F47298E2ED90030C1F1 /* DragGestureGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680F0F38298E2ED90030C1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680F0F19298E2ED80030C1F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680F0F20298E2ED80030C1F1;
+			remoteInfo = DragGestureGame;
+		};
+		680F0F42298E2ED90030C1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680F0F19298E2ED80030C1F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680F0F20298E2ED80030C1F1;
+			remoteInfo = DragGestureGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680F0F21298E2ED80030C1F1 /* DragGestureGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGestureGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F0F24298E2ED80030C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		680F0F26298E2ED80030C1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		680F0F28298E2ED80030C1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		680F0F2B298E2ED80030C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680F0F2D298E2ED90030C1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680F0F30298E2ED90030C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		680F0F32298E2ED90030C1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680F0F37298E2ED90030C1F1 /* DragGestureGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F0F3B298E2ED90030C1F1 /* DragGestureGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureGameTests.swift; sourceTree = "<group>"; };
+		680F0F41298E2ED90030C1F1 /* DragGestureGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragGestureGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F0F45298E2ED90030C1F1 /* DragGestureGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureGameUITests.swift; sourceTree = "<group>"; };
+		680F0F47298E2ED90030C1F1 /* DragGestureGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680F0F1E298E2ED80030C1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F34298E2ED90030C1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F3E298E2ED90030C1F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680F0F18298E2ED80030C1F1 = {
+			isa = PBXGroup;
+			children = (
+				680F0F23298E2ED80030C1F1 /* DragGestureGame */,
+				680F0F3A298E2ED90030C1F1 /* DragGestureGameTests */,
+				680F0F44298E2ED90030C1F1 /* DragGestureGameUITests */,
+				680F0F22298E2ED80030C1F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680F0F22298E2ED80030C1F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680F0F21298E2ED80030C1F1 /* DragGestureGame.app */,
+				680F0F37298E2ED90030C1F1 /* DragGestureGameTests.xctest */,
+				680F0F41298E2ED90030C1F1 /* DragGestureGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680F0F23298E2ED80030C1F1 /* DragGestureGame */ = {
+			isa = PBXGroup;
+			children = (
+				680F0F24298E2ED80030C1F1 /* AppDelegate.swift */,
+				680F0F26298E2ED80030C1F1 /* SceneDelegate.swift */,
+				680F0F28298E2ED80030C1F1 /* ViewController.swift */,
+				680F0F2A298E2ED80030C1F1 /* Main.storyboard */,
+				680F0F2D298E2ED90030C1F1 /* Assets.xcassets */,
+				680F0F2F298E2ED90030C1F1 /* LaunchScreen.storyboard */,
+				680F0F32298E2ED90030C1F1 /* Info.plist */,
+			);
+			path = DragGestureGame;
+			sourceTree = "<group>";
+		};
+		680F0F3A298E2ED90030C1F1 /* DragGestureGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				680F0F3B298E2ED90030C1F1 /* DragGestureGameTests.swift */,
+			);
+			path = DragGestureGameTests;
+			sourceTree = "<group>";
+		};
+		680F0F44298E2ED90030C1F1 /* DragGestureGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				680F0F45298E2ED90030C1F1 /* DragGestureGameUITests.swift */,
+				680F0F47298E2ED90030C1F1 /* DragGestureGameUITestsLaunchTests.swift */,
+			);
+			path = DragGestureGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680F0F20298E2ED80030C1F1 /* DragGestureGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680F0F4B298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGame" */;
+			buildPhases = (
+				680F0F1D298E2ED80030C1F1 /* Sources */,
+				680F0F1E298E2ED80030C1F1 /* Frameworks */,
+				680F0F1F298E2ED80030C1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragGestureGame;
+			productName = DragGestureGame;
+			productReference = 680F0F21298E2ED80030C1F1 /* DragGestureGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680F0F36298E2ED90030C1F1 /* DragGestureGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680F0F4E298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGameTests" */;
+			buildPhases = (
+				680F0F33298E2ED90030C1F1 /* Sources */,
+				680F0F34298E2ED90030C1F1 /* Frameworks */,
+				680F0F35298E2ED90030C1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680F0F39298E2ED90030C1F1 /* PBXTargetDependency */,
+			);
+			name = DragGestureGameTests;
+			productName = DragGestureGameTests;
+			productReference = 680F0F37298E2ED90030C1F1 /* DragGestureGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680F0F40298E2ED90030C1F1 /* DragGestureGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680F0F51298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGameUITests" */;
+			buildPhases = (
+				680F0F3D298E2ED90030C1F1 /* Sources */,
+				680F0F3E298E2ED90030C1F1 /* Frameworks */,
+				680F0F3F298E2ED90030C1F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680F0F43298E2ED90030C1F1 /* PBXTargetDependency */,
+			);
+			name = DragGestureGameUITests;
+			productName = DragGestureGameUITests;
+			productReference = 680F0F41298E2ED90030C1F1 /* DragGestureGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680F0F19298E2ED80030C1F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					680F0F20298E2ED80030C1F1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					680F0F36298E2ED90030C1F1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 680F0F20298E2ED80030C1F1;
+					};
+					680F0F40298E2ED90030C1F1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 680F0F20298E2ED80030C1F1;
+					};
+				};
+			};
+			buildConfigurationList = 680F0F1C298E2ED80030C1F1 /* Build configuration list for PBXProject "DragGestureGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680F0F18298E2ED80030C1F1;
+			productRefGroup = 680F0F22298E2ED80030C1F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680F0F20298E2ED80030C1F1 /* DragGestureGame */,
+				680F0F36298E2ED90030C1F1 /* DragGestureGameTests */,
+				680F0F40298E2ED90030C1F1 /* DragGestureGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680F0F1F298E2ED80030C1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F0F31298E2ED90030C1F1 /* LaunchScreen.storyboard in Resources */,
+				680F0F2E298E2ED90030C1F1 /* Assets.xcassets in Resources */,
+				680F0F2C298E2ED80030C1F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F35298E2ED90030C1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F3F298E2ED90030C1F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680F0F1D298E2ED80030C1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F0F29298E2ED80030C1F1 /* ViewController.swift in Sources */,
+				680F0F25298E2ED80030C1F1 /* AppDelegate.swift in Sources */,
+				680F0F27298E2ED80030C1F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F33298E2ED90030C1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F0F3C298E2ED90030C1F1 /* DragGestureGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F0F3D298E2ED90030C1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F0F48298E2ED90030C1F1 /* DragGestureGameUITestsLaunchTests.swift in Sources */,
+				680F0F46298E2ED90030C1F1 /* DragGestureGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680F0F39298E2ED90030C1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680F0F20298E2ED80030C1F1 /* DragGestureGame */;
+			targetProxy = 680F0F38298E2ED90030C1F1 /* PBXContainerItemProxy */;
+		};
+		680F0F43298E2ED90030C1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680F0F20298E2ED80030C1F1 /* DragGestureGame */;
+			targetProxy = 680F0F42298E2ED90030C1F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680F0F2A298E2ED80030C1F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680F0F2B298E2ED80030C1F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		680F0F2F298E2ED90030C1F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680F0F30298E2ED90030C1F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680F0F49298E2ED90030C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		680F0F4A298E2ED90030C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680F0F4C298E2ED90030C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragGestureGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680F0F4D298E2ED90030C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DragGestureGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		680F0F4F298E2ED90030C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGestureGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragGestureGame";
+			};
+			name = Debug;
+		};
+		680F0F50298E2ED90030C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragGestureGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DragGestureGame";
+			};
+			name = Release;
+		};
+		680F0F52298E2ED90030C1F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragGestureGame;
+			};
+			name = Debug;
+		};
+		680F0F53298E2ED90030C1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QU5MY7WAK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ac.kyusan-u.DragGestureGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DragGestureGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680F0F1C298E2ED80030C1F1 /* Build configuration list for PBXProject "DragGestureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F0F49298E2ED90030C1F1 /* Debug */,
+				680F0F4A298E2ED90030C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680F0F4B298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F0F4C298E2ED90030C1F1 /* Debug */,
+				680F0F4D298E2ED90030C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680F0F4E298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F0F4F298E2ED90030C1F1 /* Debug */,
+				680F0F50298E2ED90030C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680F0F51298E2ED90030C1F1 /* Build configuration list for PBXNativeTarget "DragGestureGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F0F52298E2ED90030C1F1 /* Debug */,
+				680F0F53298E2ED90030C1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680F0F19298E2ED80030C1F1 /* Project object */;
+}
